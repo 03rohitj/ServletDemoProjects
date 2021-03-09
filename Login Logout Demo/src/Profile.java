@@ -66,6 +66,8 @@ public class Profile extends HttpServlet {
 			req.getRequestDispatcher("link.html").include(req, resp);
 			out.print("Welcome to profile page");
 		}
+
+		out.close();
 	}
 
 }
